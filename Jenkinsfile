@@ -30,7 +30,7 @@ pipeline {
         
         stage('Run') { 
             steps {
-	    dir('C:\Users\SUBHA\assignment\first'){
+	    dir('C:/Users/SUBHA/assignment/first'){
                 bat "java -cp target/classes com.mycompany.app.App 2"
             }
 	    }
